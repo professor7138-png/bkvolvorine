@@ -32,7 +32,9 @@ app.use(cors({
     'http://192.168.18.118:5173',
     'https://wolverine-house.netlify.app',
     'http://wolverine-house.netlify.app',
-    'https://frontwolverine.vercel.app'
+    'https://frontwolverine.vercel.app',
+    "https://fnwolverine.vercel.app",
+    "https://bkvolvorine.vercel.app"
 
   ],
   credentials: true,
@@ -65,6 +67,8 @@ const io = new Server(server, {
       'http://localhost:3000',
       'https://wolverine-house.netlify.app',
       'http://wolverine-house.netlify.app'
+      
+
     ],
     methods: ['GET', 'POST'],
     allowedHeaders: ['Content-Type', 'Authorization'],
