@@ -33,6 +33,8 @@ app.use(cors({
     'https://wolverine-house.netlify.app',
     'http://wolverine-house.netlify.app',
     'https://frontwolverine.vercel.app',
+    "https://fnvolverineehouse.vercel.app",
+    "https://fnvolverinehouse-8k.vercel.app",
     "https://fnwolverine.vercel.app",
     "https://bkvolvorine.vercel.app"
 
